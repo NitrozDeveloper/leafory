@@ -10,13 +10,14 @@
 
 ## 📖 Project Description
 
-**Leafory** is a cross-platform (iOS & Android) mobile application that allows users to explore, search, and save their favorite books from the [GutenDex API](https://gutendex.com/), a public API for Project Gutenberg.
+**Leafory** is a cross-platform (iOS & Android) mobile application that allows users to explore, search, and save their favorite books from the [Gutendex API](https://gutendex.com/), a public API for Project Gutenberg.
 
 This project was designed with a focus on a clean, scalable, and maintainable architecture, as if it were a long-term project to be worked on by a team.
 
 ## 🎨 Design
 
 - **Design (Figma):** [Figma URL](https://www.figma.com/design/mteuznbIG6AaJQtwrfPHin/Leafory--Book-Discovery-App-Design?node-id=0-1&t=DW3VJNueDyDkBOCy-1)
+- **Note:** [The eco-friendly book icon in this app's logo was created by Vectorslab - Flaticon.](https://www.flaticon.com/free-icons/eco-book)
 
 ## ✨ Key Features
 
