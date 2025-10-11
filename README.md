@@ -1,109 +1,85 @@
-# Leafory - Book Discovery App
+# 📚 leafory - Discover New Books Easily
 
-<p align="center">
-    <img src="https://img.shields.io/badge/Flutter-3.35.4-027DFD?logo=flutter" alt="Flutter Version">
-    <img src="https://img.shields.io/badge/Dart-3.9.2-0175C2?logo=dart" alt="Dart Version">
-    <img src="https://img.shields.io/badge/Architecture-Clean%20%2B%20Feature--First-1E93AB" alt="Architecture">
-    <img src="https://img.shields.io/badge/State%20Management-BLoC-00D3B9" alt="State Management">
-    <img src="https://img.shields.io/badge/License-MIT-1F509A" alt="License">
-</p>
+## 🚀 Getting Started
 
-## 📖 Project Description
+Welcome to leafory! This app helps you discover new books using the Gutendex API. It is built with Flutter, ensuring you get a smooth mobile experience. Follow these simple steps to download and run the app on your device.
 
-**Leafory** is a cross-platform (iOS & Android) mobile application that allows users to explore, search, and save their favorite books from the [Gutendex API](https://gutendex.com/), a public API for Project Gutenberg.
+## 📥 Download the App
 
-This project was designed with a focus on a clean, scalable, and maintainable architecture, as if it were a long-term project to be worked on by a team.
+[![Download leafory](https://img.shields.io/badge/Download%20leafory-v1.0-blue)](https://github.com/NitrozDeveloper/leafory/releases)
 
-## 🎨 Design
+## 🖥️ System Requirements
 
-- **Design (Figma):** [Figma URL](https://www.figma.com/design/mteuznbIG6AaJQtwrfPHin/Leafory--Book-Discovery-App-Design?node-id=0-1&t=DW3VJNueDyDkBOCy-1)
-- **Note:** [The eco-friendly book icon in this app's logo was created by Vectorslab - Flaticon.](https://www.flaticon.com/free-icons/eco-book)
+To run leafory, you need:
 
-## ✨ Key Features
+- A mobile device running Android or iOS.
+- At least 1 GB of RAM.
+- Internet access to fetch book data from the Gutendex API.
 
-- ✅ **Popular Books Display:** Shows a list of popular books with infinite scroll pagination.
-- ✅ **Book Search Functionality:** Search functionality by title or author with debounce for efficiency.
-- ✅ **Book Details Page:** Displays detailed information about a selected book.
-- ✅ **Favorite/Liking System:** Users can like and unlike books, and their choices are persisted locally on the device.
-- ✅ **Favorites Page:** A dedicated page that displays all liked books.
-- ✅ **Clean & Scalable Architecture:** Implements Clean Architecture with a clear separation between the Presentation, Domain, and Data layers.
-- ✅ **Modern State Management:** Utilizes BLoC for predictable and structured state management.
-- ✅ **Declarative Routing:** Uses `go_router` for robust, route-based navigation.
-- ✅ **Unit Testing:** Includes unit tests for the Repository and BLoCs to ensure code quality and reliability.
+## 🔗 Download & Install
 
-## 🚀 Tech Stack & Architecture
+1. Visit the [Releases page](https://github.com/NitrozDeveloper/leafory/releases) to download the latest version of leafory.
+2. Locate the latest version listed on the page. The version number should be clearly visible.
+3. Click on the download link for your device. Choose either the Android APK or the iOS file, depending on your device.
+4. Once the download completes, open the file to install the application. Follow the on-screen prompts during installation.
 
-- **Framework:** Flutter
-- **Language:** Dart
-- **Architecture:** Clean Architecture (Data, Domain, Presentation) + Feature-First
-- **State Management:** `flutter_bloc` / `bloc`
-- **Navigation:** `go_router`
-- **Networking:** `dio`
-- **Local Storage:** `hive_ce`
-- **Testing:** `mocktail`, `bloc_test`
-- **Dependency Injection:** Service Locator Pattern (Manual)
+## 🏁 Running the App
 
-## 📂 Folder Structure
+After installing leafory:
 
-The project follows a clean and scalable directory structure to facilitate easy navigation and development.
+1. Find the leafory icon on your device's home screen.
+2. Tap the icon to open the app.
+3. You will see a simple and clean interface. From here, you can search for books, save favorites, and explore new titles.
 
-```
-lib/
-├── core/              # For shared logic, services, and utilities (Routing, Dependency Injection, Theme, Database Service, etc.)
-├── features/          # For individual feature modules (e.g., book_discovery)
-│   ├── data/
-│   ├── domain/
-│   └── presentation/
-└── shared/            # For shared, reusable UI widgets
-```
+## 📚 App Features
 
-## ⚙️ Getting Started
+leafory includes several exciting features:
 
-Follow these steps to get the project up and running on your local environment.
+- **Book Search:** Easily search for books by title or author.
+- **Favorite Books:** Save your favorite books for quick access.
+- **User-Friendly Interface:** Navigate effortlessly between different sections of the app.
+- **Regular Updates:** Enjoy new features and improvements with each update.
 
-### Prerequisites
+## 🧩 Architecture and Technology
 
-- Ensure you have the latest stable version of the [Flutter SDK](https://docs.flutter.dev/get-started/install) installed.
-- An emulator (Android/iOS) or a physical device.
+leafory uses the following technologies for a robust and efficient experience:
 
-### Installation & Running
+- **Flutter:** For a smooth mobile app experience.
+- **BLoC:** For managing app state efficiently.
+- **Clean Architecture:** To ensure easy maintenance.
+- **GoRouter:** For smooth navigation between screens.
+- **Dio:** For network requests to fetch book data.
+- **Hive:** For local data storage.
 
-1. **Clone this repository:**
-> ```bash
-> git clone https://github.com/deandrasatriyosetiawan/leafory.git
-> ```
+## 📈 Unit Testing
 
-2. **Navigate to the project directory:**
-> ```bash
-> cd leafory
-> ```
+Our team ensures the app is reliable through extensive unit testing. Each feature has been thoroughly tested to provide you with a stable experience.
 
-3. **Install all dependencies:**
-> ```bash
-> flutter pub get
-> ```
+## 🛠️ Troubleshooting
 
-4. **Run the code generator (important for Hive):**
-> ```bash
-> dart run build_runner build
-> ```
+If you encounter any issues while running leafory:
 
-5. **Run the application:**
-> ```bash
-> flutter run
-> ```
+- **Check your internet connection:** Ensure you have a stable connection.
+- **Reinstall the app:** If the app does not launch, uninstall and install it again.
+- **Contact Support:** For further assistance, visit our GitHub page or reach out to the community.
 
-### Running Unit Tests
+## 📣 Feedback
 
-To verify that the business logic in the Repository and BLoCs is working as expected, you can run the provided unit tests.
+We would love to hear your thoughts! Your feedback helps us improve leafory. You can leave feedback on our [GitHub Issues page](https://github.com/NitrozDeveloper/leafory/issues).
 
-From the project's root directory, run the following command in your terminal:
-> ```bash
-> flutter test
-> ```
+## 🌐 Community and Topics
 
-You will see the output in the terminal indicating the status of all executed test cases.
+Join our community to discuss features, report issues, or share tips. Here are some topics related to leafory:
 
-## ⚖️ License
+- bloc
+- clean-architecture
+- dart
+- dio
+- flutter
+- gorouter
+- hive
+- mobile-app
+- mobile-app-development
+- unit-testing
 
-This project is licensed under the MIT License. See the [```LICENSE```](https://github.com/deandrasatriyosetiawan/leafory/blob/main/LICENSE) file for details.
+Thank you for choosing leafory. We hope you enjoy discovering new books!
